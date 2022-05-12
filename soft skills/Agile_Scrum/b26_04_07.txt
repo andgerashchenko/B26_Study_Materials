@@ -1,0 +1,139 @@
+b26_04_07
+=====================
+
+=> Agile
+=> Scrum
+=> your questions
+=> interview 
+
+====================
+
+you will hear the word framework in two concepts
+- agile frameworks - scrum, kanban, scrumban
+- combination of tools, that will help you to automate manual scenarios 
+
+=> how do you choose a test case to be part of your regression suite
+- every automated scenario is part of regression suite 
+- which scenario to automate 
+- if it will be run more than once 
+- takes more time
+- there are more chances of errors in manual runs 
+
+=> when defect is found by end user in real life, it is called production defect
+- after fix, we run / rerun /retest the scenarios related to that feature / defect
+- and before the release we run regression again 
+
+=> who is making test framework
+- it is done by test architect, or senior test automation engineers 
+
+=> who some companies use waterfall
+- if not competitors - like in military 
+
+SOFTWARE Methodologies 
+===================================================== 
+=> Waterfall
+=> Agile 
+under agile we have different implementations or frameworks 
+- agile manifesto 
+all rules about agile are collected under agile manifesto
+4 agile values
+12 agile principals 
+
+4 agile values
+1- Trust individuals and prefer interactions over processes and tools
+2- Focus on delivering working software rather than complete documentation
+3- More customer involvement than just negotiation
+4- Willing to accommodate changes instead of being rigid to a plan
+
+12 agile principals 
+
+
+Scrum
+=====================================================
+- roles
+- events / meetings / ceremonies 
+- artifacts 
+
+
+roles
+=====================================================
+=> product owner
+- is a bridge between the customer / client and the dev team 
+- the voice of the customer
+- is a contact for the dev team for requirement clarification (if we do not have BA in the team)
+- Represents client
+- Defines all product features / user stories
+- Responsible for prioritizing product features
+- Maintains the Product Backlog
+- Cross responsibility - Communication
+
+=> Scrum Master (SM)
+- Is a facilitator not a manager / Process coach
+- Removes obstacles / impediments / problems
+- Shields the team from external interference
+- Maintains the Sprint Burn down Chart
+- Holds daily 15 minute team meeting (Daily Scrum)
+- Conducts Sprint Retrospective at the end of a Sprint
+- Cross responsibility - Scrum process
+
+=> Development Team
+- Team is cross-functional and consists of 5-9 people
+- Team completes tasks and assignments
+- Team is self-organizing and self-managing
+- Maintains the Sprint Backlog
+- Cross responsibility - Delivering value
+
+artifacts
+========================================================
+=> Product Backlog - (PB)
+- List of all desired product features
+- List of User Stories
+- List can contain bugs, and non-functional items
+- Product Owner responsible for prioritizing and maintaining
+- Items can be added by anyone at anytime
+- Each item should have a business value assigned
+
+=> Sprint Backlog ? (SB)
+- List of To-do list for the current Sprint
+- Project tasks are pulled from Product Backlog
+- Created by SM
+- Managed by the development Team
+- Once a Sprint has started no new tasks can be added to the Sprint backlog
+
+=> Burn-down Chart ? (BC)
+- Chart showing how much work remaining in a Sprint
+- Calculated in hours remaining
+- Provides visual uncompleted tasks
+- Maintained by the Scrum Master daily 
+
+in scrum we have scrum teams, which has all three roles - PO, Dev Team, SM
+inside the scrum team we have testers and developers which we call dev team 
+
+9.06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

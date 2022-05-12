@@ -1,0 +1,144 @@
+b26_04_28
+====================
+
+=> Scrum meetings        +
+=> User Story, Epic, AC  +
+=> STLC                  - 
+=> interview  
+=> assignment            +
+=> questions             + 
+
+====================
+
+=> Grooming, may optional, or only some members of the team might attend 
+=> Sprint Planning - once a sprint - DOR 
+=> Daily stand up - every day, set time 
+=> Sprint Review - Demo - DOD
+=> Sprint Retro 
+
+====================
+
+Sprint Retro 
+====================
+=> at the end of the sprint / last meeting of the sprint 
+=> time box - 1 hour, 2 hours
+=> what went well
+=> what needs to be improved
+=> what we need stop doing 
+=> Action items  
+
+====================
+
+User Story
+====================
+=> it is a requirement 
+=> short description of what functionality needs to be developed and tested 
+=> it is pretty simple to be understood from user's perspective 
+=> enough details for developers and testers to build that  functionality 
+
+Sample User Story
+=================
+
+Login Epic 
+login for manager
+login for admin
+login for driver
+signup manager 
+signup for admin
+signup for driver
+
+===========================================================
+
+As a driver I want to be able to login Vytrack Application
+
+AC.1 login with valid credentials, should be able to see home page
+AC.2 login with invalid credentials, should see error message 
+AC.3 login without any credentials, should see error message 
+
+=============================================================
+with gherkin
+
+As a driver I want to be able to login vytrack application
+
+AC.1
+Given I am on vytrack login page
+When I enter valid username 
+And I enter valid password
+And I click on login button
+Then I should be able to see driver homepage 
+
+AC.2
+Given I am on vytrack login page
+When I enter invalid username
+And I enter invalid password
+And I click login button
+Then I should see the following error message:  ""
+
+
+
+=============================================================
+
+As a manager I want to be able to login Vytrack Application
+
+AC.1
+AC.2 
+AC.3
+
+As a admin I want to be able to login Vytrack Application
+
+AC.1
+AC.2 
+AC.3
+
+=============================================================
+
+
+Test Scenario is a description what I am going to test
+
+positive (happy path) - TS1. Login with valid credentials           
+negative              - TS2. Login with valid username and invalid password
+negative              - TS3. Login with invalid username and valid password
+negative              - TS4. Login with invalid username and invalid password
+exception             - TS5. Login with empty username and empty password 
+
+Test Case - when we have steps for the scenario it is our test case 
+
+TC1. Login with valid credentials
+Step1. go to login url of vytrack applicatio "qa2.vytrack.com"
+Step2. enter valid user name and password for (or you can make is separate step)
+Step3. click login button
+Step4. you should be able to see homepage
+
+
+with gherkin
+
+TC1. Login with valid credentials
+Given I am on vytrack login page
+When I enter valid username 
+And I enter valid password
+And I click on login button
+Then I should be able to see driver homepage 
+
+=============================================================
+
+9.03 - 9.13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

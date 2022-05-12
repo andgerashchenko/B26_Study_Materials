@@ -1,0 +1,99 @@
+b26_03_15
+=========================
+
+=> your questions  +
+=> interviews      +
+=> testing types   review 
+=> testing levels  review
+=> testing layer   - 
+=> Smoke           -
+=> regression      -  
+
+==========================
+
+
+=> developers write a code to test their code (automated way) - unit testing 
+=> Is system testing the most common type of testing perform by SDET, compare to functionality integration testing? 
+mostly system testing, automated tests could be used in functionality integration testing 
+
+=> integration testing
+-  code level, developers do that, white box
+-  functionality level, between modules / components / services of the application
+-  functionality level, between applications, at the same company
+-  functionality level, between different companies 
+
+=> white black grey
+- white box - unit testing (automated) - with JUnit libraries (using Assertions / AssertL libs as well)
+- white box - integration (automated)  - mostly running different unit tests together (developers might do manual testing in dev environment)
+
+- grey box   - manual / automated 
+- black box  - manual / automated 
+
+==============================================
+
+=> front end testing 
+- we deal with UI / Front end
+- manual
+- automated 
+
+=> database testing / backend testing
+- application data is stored in DB 
+- you will test if the data correctly stored in DB
+- manually with SQL queries
+- automated with JDBC 
+
+=> API Testing 
+- can be done manually (postman)
+
+- can be done automated (Rest API)
+
+======================
+
+smoke test 
+=======================================
+- every day, usually early morning 6am or smth 
+- it is like a gate / shield between dev and test env
+- checks if the application is up and running
+- checks if the environment up and running 
+- should be fast (20 mins 30 mins)
+- should be some set of tests 
+- it is done automated way, and mostly scheduled 
+- 15, 20   50 - 60    even 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+b26_05_05
+====================
+
+=> Scrum Review    +
+=> STLC			   -	
+=> Assignment 2    +
+=> your questions  +
+=> interview       + 
+=> QUIZ next class - Scrum / Agile
+
+
+====================
+
+Scrum questions
+
+- difference between agile to waterfall
+- advantages and disadvantages of agile 
+while giving disadvantages, do not stop there, tell how you over come it 
+
+- Scrum ceremonies / meeting
+(Grooming)
+- Sprint Planning
+- Stand Up
+- Demo
+I sometimes demo USs
+in sprint automation 
+delayed
+
+- Retro
+come up with examples 
+
+
+- team structure
+project
+how many teams - 4 teams 
+PO      - usually one for the project, specifically in small projects 
+BA      - dedicated to each team
+Dev     - 4 
+Testers - 2
+SM      - 1
+
+
+- team capacity / velocity 
+velocity - goes to history 
+capacity - is how much we can take this sprint 
+
+- point estimations in your team
+
+
+- Sprint cycle / release cycle 
+2 weeks
+3 months 
+
+- product backlog / Sprint backlog
+pb - is for all Epics and User Stories for the project
+sb - user stories only for current sprint 
+
+=====================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

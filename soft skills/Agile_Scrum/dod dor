@@ -1,0 +1,44 @@
+
+=> Definition of Ready
+- (when) in the sprint planning meeting 
+- (what)is a checklist for the dev team to take the user story to work 
+- (who) creates it? scrum team together. 
+
+1. User Story should have clear description 
+2. User Story should have clear acceptance criteria 
+3. User Story and acceptance criteria are written in gherkin language 
+4. It is small enough to be developed and tested during the sprint 
+5. Test data is included to the user story 
+
+User Story matches Invest: 
+I - Independent - to the extent possible, doesn’t depend on other stories
+N- Negotiable - A story is a conversation starter, not the end result. Never talks about “how”
+V- Valuable - Something this adds value to the user
+E- Estimable - No Research Required, well understood 
+S- Small - Should not take more than one sprint to finish 
+T- Testable - Actually able to test it
+
+M - Measurable - Clearly specifies what the team needs to do to achieve the objective
+A - Attainable - Should be able to achieve the objective within the teams
+R - Relevant - Should be specific to the value being delivered
+S - Specific - States the intended outcome as simply, and concisely as possible
+
+
+
+=> Definition of Done
+=======================
+- (when) demo (Sprint Review) 
+- (what) check list for Product Owner to accept the story
+- (who) mostly PO and scrum adds some points  
+
+that could differ from project to project
+1. Test scenarios have been reviewed by client (maybe team / or PO / lead)
+2. Development code had peer reviewed and documented 
+3. Testing has been completed - functional (manual) 
+4. Automation testing had been completed (if applicable)
+5. Any defects fixed or deferred or marked as an known issue 
+6. All test results documented 
+7. Demoed to the PO / client
+8. Accepted (signed off)
+
+========================

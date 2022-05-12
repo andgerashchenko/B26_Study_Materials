@@ -1,0 +1,132 @@
+b26_03_10
+=========================
+
+=> your questions
+=> interviews
+=> testing types
+=> testing levels
+=> testing layer   - 
+=> Smoke           -
+=> regression      -  
+
+==========================
+
+=> groups 
+- interviews 
+- pick a topic - technical re explain it to your team / group 
+
+
+- White Box testing - developers code and then they test their own code
+   if you see the application code, and design your test according to the code, it is white box testing
+
+- Grey Box testing - when you have access to the developers' code  (application code) and if tester uses that knowledge to design his / her scenarios - then it is grey box
+
+- Black Box testing -  Testers do not have access to the development code, they test the functionality from the user perspective 
+
+
+==================================
+
+
+=> levels of testing
+==================================
+
+=> unit testing
+- it is a white box testing
+- lowest level of testing 
+- done by developers
+- on dev (development) environment  (not in testing environment)
+- unit test - basically testing the code 
+- developers code (verb) to test their code (noun)
+
+=> integration testing - code level
+- white box  
+- second lowest level of testing
+- developers do integration 
+- to check if small units of the code work fine together 
+
+
+=> integration testing - functionality level
+- black box mostly (maybe gray)
+- testers also can do integration testing
+- it is done in test env
+- it is mostly black box testing
+- testing the integration of two or more features together 
+
+- downstream - we send data
+- upstream   - we receive data
+
+=> system testing 
+- black box (gray box)
+- third level 
+- we test functionalities / or non fictionality from application perspective (not code)
+- actual result vs expected result 
+- in test environment 
+
+Manual testers and Automation Testers test the software without knowing the internal code - black box testing
+
+Automation testers partially know the internal code when testing the software- gray box testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

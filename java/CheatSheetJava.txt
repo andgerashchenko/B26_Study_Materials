@@ -1,0 +1,96 @@
+<<<<<<<<Scanner>>>>>>>>
+
+Scanner input = new Scanner (System.in);
+String str = input.nextLine();
+
+
+<<<<<<<String manipulations>>>>>>>>>
+
+str.substring(0,1).toUpperCase()
+str.substring(1).toLowerCase()
+str.equals(str1)
+str.replace(",", "")
+str.split(" ") --> str[]
+str.equalsIgnoreCase(str1)
+str.startsWith("S") --> boolean
+
+
+<<<<<<<<<<Arrays Methods>>>>>>>>>>>
+
+System.out.println(Arrays.toString(arr[]);
+Arrays.sort(arr);
+indexOf(arr, 2) --> index
+char [] arr = str.toCharArray();
+
+
+<<<<<<<<<Switch>>>>>>>
+
+switch (day) {
+            case 1:
+                return "Monday";
+		.......
+		.......		
+            case 7:
+                return "Sunday";
+
+            default:
+                return "Invalid";
+        }
+
+
+<<<<<<<<<Multidimensional Arrays>>>>>>>>>>
+int arr [][]={{3,4,5,6},{5,2,6},{10,20,30}};Arrays.binarySearch(arr, item) -> index;System.out.println(Arrays.deepToString(arr));
+
+
+
+<<<<<<<<Wrapper / ArrayList>>>>>>>>>>>>>>
+
+ArrayList<Integer> numbers = new ArrayList<>();
+ArrayList<String > list=new ArrayList<>(Arrays.asList("one", "two", "three"));
+Arrays.asList(arr); // converts the array to a collection type(ArrayList)
+clear(): remove all the elements in the ArrayList / void: no return
+isEmpty(): return boolean. true: whenever there is no element in the ArrayList / false: whenever there is any element in the ArrayList
+set(index, element): replace the element at the given index number (1st parameter) with the given element (2nd parameter)
+indexOf(element): return an int first occurrence of the index of the given element if the element does not exist in the ArrayList: it returns -1
+Character.isUpperCase(s.charAt(i))
+Character.isDigit(s.charAt(i))
+Integer.MAX_VALUE --> max possible value of data type
+Long.parseLong(str) -->primitive
+Integer.valueOf(str) --> wrapper
+
+Integer a2 = new Integer(10);
+Integer a3 = 20; // autoboxing - primitive -> object
+int a4 = a3; // unboxing - object -> primitive
+
+list.size()
+list.add()
+list.get()
+System.out.println(list)
+list.remove(index);
+list.isEmpty()
+list.contains(value)
+list.indexOf(100)
+list.lastIndexOf(100)
+list.removeIf(num -> condition/boolean);
+list.addAll(Arrays.asList(3,6,2,64,22,230,12));
+removeAll(collection type): remove all the elements that match from the argument
+containsAll(collection type): checks if the ArrayList contains all of the defined elements from the argument
+retainAll(collection type): keep all matching elements from the argument. The rest are removed
+
+<<<<<<<<<Void Method>>>>>>>>>
+public static void methodName(dataType argumentName){body}
+            
+
+<<<<<<<Return Method>>>>>>>>>>>
+public static dataType methodName(dataType argumentName){body}
+
+<<<<<<Collections methods>>>>>>>>
+
+Collections.frequency(list, value)
+Collections.reverse(list)
+Collections.sort(list)
+Collections.max(list)
+Collections.min(list)
+Collections.swap(list, index1, index2);
+
+

@@ -1,0 +1,119 @@
+b26_03_03
+=========================
+
+=> your questions 
+=> quiz
+=> quick review 
+=> Testing 
+
+=========================
+
+QA
+=========================
+
+- in design phase of the SDLC automation testing framework is designed 
+- not every automation test engineer will work on it, senior or architect level automation testers will do that
+- SDLC, soon we will learn STLC - software testing life cycle, Defect/Bug Life Cycle 
+
+- Sdet is testing the functionality , not the code as you said - I mean tester is not doing unit testing 
+
+- however code keep getting changing in code environment which may not get updated in test environment -good questions, when there is a change in dev env code is pushed to test env
+
+- So let's say tester is testing the functionality but the code is being changing on dev environment then how it works? code changes in test env only when it is deployed from dev to test env
+
+- is dev and qa environment work synchronized? - it needs to be pushed / deployed. Can it happen automatically - yes 
+
+=========================
+
+=> functional testing
+=> non functional testing
+
+
+=========================
+
+Testing Types 
+==============================================
+
+=> Static
+- testing the documentation 
+- it is not spell check
+- to make sure the process documented correctly 
+- verification process
+
+- review
+- walk through
+- inspection 
+
+==============================================
+
+=> dynamic 
+- testing the code
+- testing the functionality 
+- testing non functionality 
+- validation process 
+
+- developers
+- testers 
+
+- White Box testing - developers code and then they test their own code
+   if you see the application code, and design your test according to the code, it is white box testing
+
+- Grey Box testing 
+
+- Black Box testing -  Testers do not have access to the development code, they test the functionality from the user perspective 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

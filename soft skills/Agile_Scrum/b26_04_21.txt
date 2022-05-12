@@ -1,0 +1,190 @@
+b26_04_21
+====================
+
+=> Scrum
+=> interview
+=> Project
+=> questions 
+
+====================
+
+Scrum meetings
+=====================================
+=> grooming meeting 
+- PO creates User Stories
+- dev team owns it, it means they will work on it 
+- dev and testers have to make sure User Stories are clearly written
+- pointing / estimation is happening - we will learn next class
+- time box
+=====================================
+
+
+Estimation
+=====================================
+=> to size, in order to know how many user stories can team take during the sprint 
+=> complexity  1. Login / Sign in functionality   2.Sign Up / register functionality
+=> testers must make sure that US and AC is clearly defined 
+=> testers must make sure that test data is included to the story 
+
+Sprint 2 - 40,  Sprint 3 - 36,   Sprint 4 - 42,  Sprint 5 - ? 
+
+Sprint Velocity = the average points (sprint) you have completed till
+
+Sprint Velocity is - 40
+Sprint Capacity - if the whole team is available 
+
+===================================
+
+Sprint Planning
+===================================
+=> Sprint Goal - what team is going to accomplish during the sprint
+=> whole team agrees on the commitment 
+=> once again make sure US and AC are clear, test data is there
+=> developers will assign themselves the stories and after that testers will test
+=> Story is ready for development - Definition of ready  (DOR)
+=> SM, PO (BA) and dev team attends 
+=> 1 or 2 hours depending your sprint length 
+=> first day of the sprint 
+
+===========================================
+
+=> Definition of Ready
+- (when) in the sprint planning meeting 
+- (what)is a checklist for the dev team to take the user story is ready to work on
+- (who) creates it? scrum team together. 
+
+1. User Story should have clear description 
+2. User Story should have clear acceptance criteria 
+3. User Story and acceptance criteria are written in gherkin language 
+4. It is small enough to be developed and tested during the sprint 
+5. Test data is included to the user story 
+
+User Story matches Invest: 
+I - Independent - to the extent possible, doesn’t depend on other stories
+N- Negotiable - A story is a conversation starter, not the end result. Never talks about “how”
+V- Valuable - Something this adds value to the user
+E- Estimable - No Research Required, well understood 
+S- Small - Should not take more than one sprint to finish 
+T- Testable - Actually able to test it
+
+M - Measurable - Clearly specifies what the team needs to do to achieve the objective
+A - Attainable - Should be able to achieve the objective within the teams
+R - Relevant - Should be specific to the value being delivered
+S - Specific - States the intended outcome as simply, and concisely as possible
+
+=========================================
+
+Daily Stand up 
+=========================================
+=> 15 mins
+=> usually in the morning 
+=> set time - 9.30 am or 10am etc 
+=> what did you do yesterday
+=> what are you working on today 
+=> any blocker? / impediments? 
+=> if there is something needs detailed discussion, team calls it parking lot item and discuss after everyone gives their status
+=> SM, dev team, BA (when required PO can attend) if you do not have BA, then PO attends
+
+
+Sprint review == demo meeting 
+===========================
+=> happens at the end of the sprint - last day
+=> PO hosts
+=> SM dev team BA PO and stakeholder attend
+=> team demos USs to PO 
+=> PO either accepts or rejects 
+=> 1 hour or 2, depending the length of the sprint 
+
+=> Definition of Done
+=======================
+- (when) demo (Sprint Review) 
+- (what) check list for Product Owner to accept the story
+- (who) mostly PO and scrum adds some points  
+
+that could differ from project to project
+1. Test scenarios have been reviewed by client (maybe team / or PO / lead)
+2. Development code had peer reviewed and documented 
+3. Testing has been completed - functional (manual) 
+4. Automation testing had been completed (if applicable)
+5. Any defects fixed or deferred or marked as an known issue 
+6. All test results documented 
+7. Demoed to the PO / client
+8. Accepted (signed off)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

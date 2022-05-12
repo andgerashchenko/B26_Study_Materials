@@ -1,0 +1,135 @@
+b26_04_14
+=====================
+
+=> Quiz           +
+=> Scrum          +
+=> your questions +
+=> interview      +
+
+====================
+
+
+QA
+====================
+=> what is the difference between the integration in coding phase, and integration in test phase?
+in coding - integration of the units of the code / code units
+
+=> what is the reason of the manual test scenarios in regression suit
+- because of lack of resources, we sometimes can not catch up with automation 
+- some scenarios technically not automate-able 
+- some scenarios still need to be part of regression but is not worth to automate 
+
+
+
+Scrum
+=====================================================
+- roles
+- events / meetings / ceremonies 
+- artifacts 
+
+
+roles
+=====================================================
+=> product owner
+- is a bridge between the customer / client and the dev team 
+- the voice of the customer
+- is a contact for the dev team for requirement clarification (if we do not have BA in the team)
+- Represents client
+- Defines all product features / user stories
+- Responsible for prioritizing product features
+- Maintains the Product Backlog
+- Cross responsibility - Communication
+
+=> Scrum Master (SM)
+- Is a facilitator not a manager / Process coach
+- Removes obstacles / impediments / problems
+- Shields the team from external interference
+- Maintains the Sprint Burn down Chart
+- Holds daily 15 minute team meeting (Daily Scrum)
+- Conducts Sprint Retrospective at the end of a Sprint
+- Cross responsibility - Scrum process
+
+=> Development Team
+- Team is cross-functional and consists of 5-9 people
+- Team completes tasks and assignments
+- Team is self-organizing and self-managing
+- Maintains the Sprint Backlog
+- Cross responsibility - Delivering value
+
+artifacts
+========================================================
+=> Product Backlog - (PB)
+- List of all desired product features
+- List of User Stories
+- List can contain bugs, and non-functional items
+- Product Owner responsible for prioritizing and maintaining
+- Items can be added by anyone at anytime
+- Each item should have a business value assigned
+
+=> Sprint Backlog ? (SB)
+- List of To-do list for the current Sprint
+- Project tasks are pulled from Product Backlog
+- Created by SM
+- Managed by the development Team
+- Once a Sprint has started no new tasks can be added to the Sprint backlog
+
+=> Burn-down Chart ? (BC)
+- Chart showing how much work remaining in a Sprint
+- Calculated in hours remaining
+- Provides visual uncompleted tasks
+- Maintained by the Scrum Master daily 
+
+
+=> create you story 
+=> group study 
+=> group interviews 
+=> focus on the material school shares 
+=> 
+
+
+
+=====================================
+
+Scrum meetings
+=====================================
+=> grooming meetin 
+- PO creates User Stories
+- dev team owns it, it means they will work on it 
+- dev and testers have to make sure User Stories are clearly written
+- pointing / estimation is happening - we will learn next class
+- time box
+=====================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

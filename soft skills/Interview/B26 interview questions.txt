@@ -1,0 +1,75 @@
+B26 interview questions
+=======================
+
+1. What are the phases / steps of SDLC
+2. What is testing? 
+3. What is manual testing?
+4. What is automated testing?
+5. What is static testing?
+6. What is verification?
+7. What is validation?
+8. What is dynamic testing?
+9. What is unit testing and who does that? 
+10. what is functional testing?
+11. what is unit testing and who does that? 
+12. What is smoke test?
+13. Who runs the smoke test?
+14. How long does your smoke test take to run?
+15. How many scenarios does your smoke test have? 
+16. Where do we run smoke test?  
+17. What is white box testing?
+18. What is black box testing?
+20. How many environments you have in your project
+21. What is regression testing?
+22. How Many scenarios you have in you regression?
+23. How long does your regression take place?
+24. Is your smoke suite dynamic? tell me more
+25. Who decides which scenarios go to smoke which go to regression? 
+26. Where do you run regression?
+27. how many scenarios automated in your regression?
+28. Is your all smoke suite automated? 
+29. Tell me 3 things you like about Agile?
+30. What do you find challenging about Agile 
+31. What do you like about agile?
+32. What challenges can you have while working in agile environment?
+33. Who accepts user stories?
+34. Describe me your team? 
+35. What do you like about being part of scrum team?
+36. What is your team size? 
+37. What is product backlog?
+38. What is sprint backlog?
+39. How long is you sprint? 
+40. Tell me about sprint grooming
+41. Tell me about sprint planning 
+42. Tell me about daily stand up
+43. Tell me about retro meeting 
+44. How often do you have releases?
+45. What is definition of ready? 
+46. What is definition of done?
+47. What is Epic
+48. What is user story
+49. What is AC 
+50. What is increment?
+51. What is testing? 
+52. Tell me about your project
+53. What you do while developer developing the code
+54. How many environments you have in your project
+55. What do you do when you find a defect? 
+56. What is defect priority? and who decides that?
+57. What is defect severity? and who decides that?
+58. What project management tool do you use? 
+59. What questions you have for us?
+60. Why are you applying to our company? 
+61. Describe your testing process during the sprint
+62. What motivates you?
+63. What demotivates you? 
+64. Where do you see yourself in 6 months? - short term 
+65. Where do you see yourself in 5 years?  - long term 
+66. Three things you good at?
+67. When to start testing?
+68. Why to automate? 
+69. When to automate?
+70. How to achieve better test coverage?  
+71. Tell me about your project 
+72. Your day to day activities
+73. My responsibilities

@@ -1,0 +1,116 @@
+b26_03_17
+=========================
+
+=> your questions   +
+=> Smoke            + 
+=> regression       + / -
+=> intro to Software Methodologies - 
+=> interview   
+
+==========================
+
+
+your questions
+==========================
+=> for integration testing questions
+- give the theoretical answer
+- then you can add how yo also did integration testing
+- how testers can be involved in integration testing 
+
+=> what certifications 
+- during the class (OCA, AWS Practitioner, if you have time maybe SM)
+- after starting job (java 2, AWS Solution Architect)
+
+=> how often should Smoke Test Suite run?
+- if your dev to test deployment is once a day => then 1 time
+- if more the moe than once
+
+- it is better to go to the interview once a day deployment from dev to test and this is when our smoke test is running 
+
+smoke test 
+=======================================
+- every day, usually early morning 6am or smth 
+- it is like a gate / shield between dev and test env
+- checks if the application is up and running
+- checks if the environment up and running 
+- should be fast (20 mins 30 mins)
+- should be some set of tests 
+- it is done automated way, and mostly scheduled 
+- 15, 20   50 - 60    even 100
+- smoke suite is changeable (dynamic) - you can add and remove 
+
+=> you code (smoke suite) => gitHub => jenkins 
+
+1. scenario name - login functionality
+Step one   - go to the url (qa.vytack.com)
+Step two   - enter username (correct)
+Step three - enter passwords (correct)
+Step four  - click login button
+Stem five  - you should be able to login to the Vtrack application
+
+- smoke suite is running in a tool called Jenkins (you will learn in here) and it generates the report for you, and it can email / slack it to list you provide 
+
+- what we do after we get smoke result 
+- if it passes - chill
+- if it fails, you will run failing scenarios in your local environment / machine to make sure it is failing.
+- if it still failing you make sure that your testing code is correct
+- if everything is ok from your side, then you talk to developer and let them know
+
+==============================================
+
+Regression 
+==============================================
+- regression runs before releases 
+- (it is good for interview to say that we release every 4 or 3 months - so it is time when we run regression)
+- in most projects it is not possible to automate all scenarios which is part of regression suite 
+- so regression is done both manual and automated (80 - 20, 85 - 15) 
+- lets say, 1000 scenarios in your, suite 850 are automated, 150 are manual 
+- how many scenarios (300, 500,  - 3000)
+- how long does it run (2, 3, 8, 10 hours)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

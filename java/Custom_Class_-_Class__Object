@@ -1,0 +1,21 @@
+Custom Class: Class & Object
+
+
+- Class
+
+		- where Objects came from
+
+		- an entity that determines how an object will behave and what the object will contain
+
+		- a blueprint or set of instruction to build a specific type of Object
+
+
+- Object
+
+		- instance of a class
+
+		- an Object can store data
+
+		- the data stored in an object are called fields
+
+		- multiple objects can be created from a class
