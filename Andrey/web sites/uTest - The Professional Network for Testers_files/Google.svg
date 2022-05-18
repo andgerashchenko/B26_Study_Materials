@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EB058C2C-EDA4-45A5-BA0D-F7679A584300</title>
+    <defs>
+        <circle id="path-1" cx="36" cy="36" r="36"></circle>
+        <filter x="-11.1%" y="-9.7%" width="122.2%" height="122.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0,17 C0,26.4272727 7.57272727,34 17,34 L17,34 C25.5,34 33.2272727,27.8181818 33.2272727,17 L33.2272727,17 C33.2272727,15.9954545 33.0727273,14.9144091 32.8416818,13.9090909 L32.8416818,13.9090909 L17,13.9090909 L17,20.4772727 L26.1181818,20.4772727 C25.2681818,24.65 21.7136364,27.0454545 17,27.0454545 L17,27.0454545 C11.4363636,27.0454545 6.95454545,22.5636364 6.95454545,17 L6.95454545,17 C6.95454545,11.4371364 11.4363636,6.95454545 17,6.95454545 L17,6.95454545 C19.3954545,6.95454545 21.5590909,7.80454545 23.2583182,9.19545455 L23.2583182,9.19545455 L28.2045455,4.25 C25.1909091,1.62272727 21.3272727,0 17,0 L17,0 C7.57272727,0 0,7.57272727 0,17 L0,17 Z" id="path-3"></path>
+        <path d="M0,17 C0,26.4272727 7.57272727,34 17,34 L17,34 C25.5,34 33.2272727,27.8181818 33.2272727,17 L33.2272727,17 C33.2272727,15.9954545 33.0727273,14.9144091 32.8416818,13.9090909 L32.8416818,13.9090909 L17,13.9090909 L17,20.4772727 L26.1181818,20.4772727 C25.2681818,24.65 21.7136364,27.0454545 17,27.0454545 L17,27.0454545 C11.4363636,27.0454545 6.95454545,22.5636364 6.95454545,17 L6.95454545,17 C6.95454545,11.4371364 11.4363636,6.95454545 17,6.95454545 L17,6.95454545 C19.3954545,6.95454545 21.5590909,7.80454545 23.2583182,9.19545455 L23.2583182,9.19545455 L28.2045455,4.25 C25.1909091,1.62272727 21.3272727,0 17,0 L17,0 C7.57272727,0 0,7.57272727 0,17 L0,17 Z" id="path-5"></path>
+        <path d="M0,17 C0,26.4272727 7.57272727,34 17,34 L17,34 C25.5,34 33.2272727,27.8181818 33.2272727,17 L33.2272727,17 C33.2272727,15.9954545 33.0727273,14.9144091 32.8416818,13.9090909 L32.8416818,13.9090909 L17,13.9090909 L17,20.4772727 L26.1181818,20.4772727 C25.2681818,24.65 21.7136364,27.0454545 17,27.0454545 L17,27.0454545 C11.4363636,27.0454545 6.95454545,22.5636364 6.95454545,17 L6.95454545,17 C6.95454545,11.4371364 11.4363636,6.95454545 17,6.95454545 L17,6.95454545 C19.3954545,6.95454545 21.5590909,7.80454545 23.2583182,9.19545455 L23.2583182,9.19545455 L28.2045455,4.25 C25.1909091,1.62272727 21.3272727,0 17,0 L17,0 C7.57272727,0 0,7.57272727 0,17 L0,17 Z" id="path-7"></path>
+        <path d="M0,17 C0,26.4272727 7.57272727,34 17,34 L17,34 C25.5,34 33.2272727,27.8181818 33.2272727,17 L33.2272727,17 C33.2272727,15.9954545 33.0727273,14.9144091 32.8416818,13.9090909 L32.8416818,13.9090909 L17,13.9090909 L17,20.4772727 L26.1181818,20.4772727 C25.2681818,24.65 21.7136364,27.0454545 17,27.0454545 L17,27.0454545 C11.4363636,27.0454545 6.95454545,22.5636364 6.95454545,17 L6.95454545,17 C6.95454545,11.4371364 11.4363636,6.95454545 17,6.95454545 L17,6.95454545 C19.3954545,6.95454545 21.5590909,7.80454545 23.2583182,9.19545455 L23.2583182,9.19545455 L28.2045455,4.25 C25.1909091,1.62272727 21.3272727,0 17,0 L17,0 C7.57272727,0 0,7.57272727 0,17 L0,17 Z" id="path-9"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DS/Home-Page" transform="translate(-776.000000, -1938.000000)">
+            <g id="Brands-You-Love" transform="translate(74.000000, 1798.000000)">
+                <g id="Right" transform="translate(707.000000, 0.000000)">
+                    <g id="Google" transform="translate(0.000000, 144.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g transform="translate(19.000000, 19.000000)">
+                            <g id="Group-3">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <polygon id="Fill-1" fill="#F8BB15" mask="url(#mask-4)" points="-1.5453 27.0453773 -1.5453 6.95446818 11.5910636 16.9999227"></polygon>
+                            </g>
+                            <g id="Group-6">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="Clip-5"></g>
+                                <polygon id="Fill-4" fill="#E94435" mask="url(#mask-6)" points="-1.5453 6.95446818 11.5910636 16.9999227 17.0001545 12.2862864 35.5456091 9.27265 35.5456091 -1.54553182 -1.5453 -1.54553182"></polygon>
+                            </g>
+                            <g id="Group-9">
+                                <mask id="mask-8" fill="white">
+                                    <use xlink:href="#path-7"></use>
+                                </mask>
+                                <g id="Clip-8"></g>
+                                <polygon id="Fill-7" fill="#35A751" mask="url(#mask-8)" points="-1.5453 27.0453773 21.6365182 9.27265 27.7402909 10.0453773 35.5456091 -1.54553182 35.5456091 35.5453773 -1.5453 35.5453773"></polygon>
+                            </g>
+                            <g id="Group-12">
+                                <mask id="mask-10" fill="white">
+                                    <use xlink:href="#path-9"></use>
+                                </mask>
+                                <g id="Clip-11"></g>
+                                <polygon id="Fill-10" fill="#557DBE" mask="url(#mask-10)" points="35.5456091 35.5453773 11.5910636 16.9999227 8.50015455 14.6817409 35.5456091 6.95446818"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

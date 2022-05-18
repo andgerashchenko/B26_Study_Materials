@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2D8FE192-BA90-405E-9295-9D860369A2F9</title>
+    <defs>
+        <circle id="path-1" cx="36" cy="36" r="36"></circle>
+        <filter x="-11.1%" y="-9.7%" width="122.2%" height="122.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-3" points="0.257236364 0.579054545 35.8310545 0.579054545 35.8310545 35.6363636 0.257236364 35.6363636"></polygon>
+        <polygon id="path-5" points="0.000509090909 0.437818182 39.0012364 0.437818182 39.0012364 6.49367273 0.000509090909 6.49367273"></polygon>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DS/Home-Page" transform="translate(-776.000000, -2083.000000)">
+            <g id="Brands-You-Love" transform="translate(74.000000, 1798.000000)">
+                <g id="Right" transform="translate(707.000000, 0.000000)">
+                    <g id="Tesla" transform="translate(0.000000, 289.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g transform="translate(16.000000, 20.000000)">
+                            <g id="Group-3" transform="translate(1.454545, 3.926109)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M18.0485091,35.6365091 L23.5045091,4.94996364 C28.7052364,4.94996364 30.3459636,5.52014545 30.5823273,7.84814545 C30.5823273,7.84814545 34.0717818,6.54705455 35.8310545,3.9056 C28.9648727,0.723781818 22.0652364,0.579781818 22.0652364,0.579781818 L18.0390545,5.48378182 L18.0485091,5.48305455 L14.0223273,0.579054545 C14.0223273,0.579054545 7.12341818,0.723054545 0.257236364,3.90487273 C2.01505455,6.54632727 5.50596364,7.84741818 5.50596364,7.84741818 C5.74378182,5.51941818 7.38232727,4.94923636 12.5488727,4.9456 L18.0485091,35.6365091" id="Fill-1" fill="#E62629" mask="url(#mask-4)"></path>
+                            </g>
+                            <g id="Group-6" transform="translate(0.000000, 0.289745)">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="Clip-5"></g>
+                                <path d="M19.5008727,2.79985455 C25.0514182,2.75767273 31.4048727,3.65876364 37.9088727,6.49367273 C38.7779636,4.92858182 39.0012364,4.23767273 39.0012364,4.23767273 C31.8914182,1.42385455 25.2339636,0.461672727 19.5001455,0.437672727 C13.7663273,0.461672727 7.10887273,1.42458182 0.000509090909,4.23767273 C0.000509090909,4.23767273 0.316872727,5.08858182 1.09214545,6.49367273 C7.59469091,3.65876364 13.9488727,2.75767273 19.5001455,2.79985455 L19.5008727,2.79985455" id="Fill-4" fill="#E62629" mask="url(#mask-6)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
