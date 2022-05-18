@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>02E459E7-1DB4-4E23-93B8-FC0525E45FEC</title>
+    <defs>
+        <circle id="path-1" cx="36" cy="36" r="36"></circle>
+        <filter x="-11.1%" y="-9.7%" width="122.2%" height="122.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DS/Home-Page" transform="translate(-872.000000, -1866.000000)">
+            <g id="Brands-You-Love" transform="translate(74.000000, 1798.000000)">
+                <g id="Right" transform="translate(707.000000, 0.000000)">
+                    <g id="McDonalds" transform="translate(96.000000, 72.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g transform="translate(19.000000, 21.000000)" fill="#FFC629" id="Fill-1">
+                            <path d="M24.3355556,2.11555556 C27.2577778,2.11555556 29.6266667,14.4322222 29.6266667,29.6244444 L33.8577778,29.6244444 C33.8577778,13.2633333 29.5944444,1.46056007e-13 24.3355556,1.46056007e-13 C21.3444444,1.46056007e-13 18.6744444,3.98555556 16.93,10.2188889 C15.1844444,3.98555556 12.5144444,1.46056007e-13 9.52333333,1.46056007e-13 C4.26444444,1.46056007e-13 -1.38161088e-13,13.2633333 -1.38161088e-13,29.6244444 L4.23222222,29.6244444 C4.23222222,14.4322222 6.60222222,2.11555556 9.52333333,2.11555556 C12.4444444,2.11555556 14.8144444,13.4844444 14.8144444,27.5088889 L19.0444444,27.5088889 C19.0444444,13.4844444 21.4144444,2.11555556 24.3355556,2.11555556"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
