@@ -1,0 +1,149 @@
+SELENIUM
+
+2 types of markup tags: paired / unpaired
+
+HTML structure:
+1. Doctype declaration
+2. <html> </html> tag : is the parent/ascendent of all other web elements
+3. <head> </head> tag 
+4. <body> </body> tag
+
+<p> tag: paragraph
+<h> tag: header
+<a> ANCHOR TAG
+
+<table> tag
+<table> </table> : creates the table
+<thead> </thead> : contains header information 
+<tbody> </tbody> : actual content of the table goes here
+<tr> : - stands for "table row" - creates each row
+<td> : - stands for "table data"
+<th> : - stands for "table header": crate cells like <td>, will also make the content "bolded" and "centered"
+
+<div> </div>
+<span> </span>
+<input> tag:
+<select> </select> tag: create dropdowns:
+<select>
+<options> TEXT 1 </options> 
+<options> TEXT 2 </options>
+<options> TEXT 3 </options>
+</select>
+
+<input> - RADIO BUTTON : type=“radio”
+<input> - CHECKBOX : type=“checkbox”
+
+
+LOCATORS:
+Selenium has total of 8 locators.
+- id: driver.findElement(By.id("asdf57"));
+
+- name: driver.findElement(By.name("hu58"));
+
+- className: driver.findElement(By.className("cde45"));
+
+- tagName: driver.findElement(By.tagName("div"));
+
+- linkText: driver.findElement(By.linkText("GOOGLE SEARCH"));
+
+- partialLinkText: driver.findElement(By.partialLinkText("GOOGLE"));
+
+- cssSelector: tagName[attribute='value'] > childTagName  -/-  [attribute='value’]
+
+- xpath: //tagName[@attribute='value'] -/- //tagName[contains(@attribute, 'value’)] -/- 
+         //tagName[.='text'] same as //tagName[text()='text’]
+         parent -> child - "/"
+         child -> parent - "/.."
+         ”/following-sibling::tagname” (checkbox.findElement(By.xpath("following-sibling::*")))
+         “/preceding-sibling::tagname”
+
+
+METHODS:
+.get("URL")
+.getTitle()
+.getCurrentUrl()
+.findElement(By.locator("STRING"))
+.findElements(By.locator("STRING"))
+.click()
+.sendKeys("string to be sent")
+.getText()
+.getAttribute()
+.isDisplayed()
+.isSelected()
+.isEnabled()
+driver.manage().window().maximize();
+driver.manage().window().fullscreen()
+driver.close() - close tab
+driver.quit() - close window
+Thread.sleep()
+driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
+Navigators:
+• driver.navigate() --> navigate methods allows us to do simple navigations
+• driver.navigate().forward () --> will take page to forward page
+• driver.navigate().back() --> will take page to previous page
+• driver.navigate().refresh()--> will refresh the current page
+• driver.navigate().to() --> exactly same as .get() method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

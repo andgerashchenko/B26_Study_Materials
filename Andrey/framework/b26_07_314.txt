@@ -1,0 +1,167 @@
+b26_07_14
+======================
+
+=> answers to the questions
+=> Tell me about you framework
+=> intro to new project
+=> interview 
+
+=======================
+
+questions and answers
+=======================
+
+Tell me about your framework 
+=============================
+=> tools:
+   java                            - language
+   maven                           - build tool, managing the dependencies 
+   selenium                        - (webdriver/lib/tool) to interact with browser 
+   junit                           - assertions 
+   cucumber report / extent report - for reporting and screen shots 
+   Intelij/Eclipse                 - IDE
+
+=> design:
+	POM - Page Object Model (Page classes / page factory) / BDD / Cucumber 
+	    - runner / failed runner
+	    - step definitions 
+	    - hook (before / after suite)
+	    - utilities (general utilities. project related utilities)
+	    - resources - features, test data, configuration properties 
+	Singelton Driver     
+
+=> benefits: 
+	easy to maintain 
+	reusabilty 
+	multi browsers 
+	db, api and UI 
+	gherkin 
+	readable 
+	organized 
+
+
+	8.59
+
+==============================	
+
+Not nadir's
+
+some other answers 
+
+tell me about your framework-  
+-  framework name --> Cucumber BDD framework
+-  languages + tools
+   java + maven build tool --> pom.xml file -> store all the dependencies
+
+   tools:
+   frontend - selenium webdriver , cucumber, junit
+   database - SQL (language), JDBC
+   API - restAssured
+   mobile - Appium
+
+    packges : 
+
+             1. features 
+                  feature + scenario + gherkin language 
+
+             2. stepDef - test script 
+
+             3. runner 
+              cuckesRunner class -> its a empty class 
+             
+             4. annotations -> trigger how to run / what to run 
+
+                @RunWith(Cucumber.class)
+                @CucumberOptions
+
+             5.plug-in -> report types 
+                 HTML
+                 json
+                 prettyprint
+
+             6.target folder
+                                              1.feature 
+                                              2.glue 
+                                              3.tag -what to run 
+                                              4.dryRun - checking test script
+
+
+             7.utilities - reusable codes 
+                 configReader -> to read my config.properties file
+                                 just provide the key , the method gives me the value
+           
+                 Driver - singleton design pattern 
+                           create only one instance of driver 
+
+
+             8. beside singleton, I have POM design pattern 
+                  - pages 
+                     loginpage - pagefactory - initiate elements + make connection between the page and driver 
+                                 @FindBy -> to locate all the elements
+                                             re-use
+
+            9. version controle system/tool - git/github 
+
+                   .gitignore 
+
+
+             10. benefit of the Cucumber BDD framework 
+
+                   -helps the non- technique people to understanding
+                   - re-usebale + less code
+                   - easy to perform 
+                   - more orginized 
+                   - easy to maintain
+                   - automate both frontend + backend 
+                   - easy to transfer to new team members
+
+
+these are samples - not my favorite )
+ 
+TELL ME ABOUT YOUR FRAMEWORK
+In my curent project, in order to design my framework, I
+-   used different management and automation tools as Eclipse IDE / IntelliJ, Selenium WebDriver for browser automation, Maven for dependencies, Cucumber and Jenkins. 
+-  -I also used POM structure in order to keep my code organized and clean. So, I basically created a separate Java class for each page of my application where I store all the elements of that page as well as related methods. 
+-  I have separate classes where I keep my implemented step definitions. Also, for each scenario(positive or negative) I created Cucumber feature files where I used GHERKIN language in order to describe my test scenarios, by doing that I'm making sure that my test cases are understandable for each member of my team, even for those who aren't technically strong.
+-   I have another separate package for my utilities where I would store all my drivers, page files or utilities that I could possibly run. 
+-  Reporting is done in cucumber with cucumber html report and Jenkins. 
+-  All my code is stored in GIT so I can share it with my team members when necessary. 
+-  My framework uses Selenium WebDriver for browser automation, and JUnit for starting my tests and for assertions
+-  My framework is BDD, which uses Cucumber to write tests in feature file, organize test suites like @smoke, @api. Our feature files are written in Gherkin language to make it easy to understand for non- technical people
+-   My framework generates HTML reports with exact steps from the feature file.
+-  In my framework; Other than feature files, I have a runner class that runs my tests and helps to generate codes for step definition from my feature files. It also contains locations that show where my feature files and StepDefs (Glue) are.
+-  Step definition classes where I have my methods to execute feature files, Driver class is designed as Singleton. Configuration Reader and properties file. 
+-  -I also have page classes where I locate my elements for each page. Besides these, I have utility pages where I store my reusable codes. 
+-  -Lastly, I have hook class that implements my codes which run before and after all my tests this is where I invoke my TakeScreenShot for each failure. My framework supports Data-Driven testing using Apache POI, Scenario Outline, excel and csv files.
+-  In my framework, I can also perform Database testing through JDBC driver. I am using JIRA as project management and bug tracking tool. For Continues Integration and test scheduling, I use Jenkins. And I use Selenium Grid for multi browser parallel testing.
+
+
+
+================
+We need to specify in and out of our Test Automation Framework such as programming language used, Type of framework used, Test Base Class (Initializing WebDriver, Implicit Waits), How we separate Element locators and tests (Page Objects, Page Factory), Utility functions file, Property files, TestNG annotations, How we parameterize tests using Excel files, How we capture error screenshots, Generating reports(Extent Reports), Emailing reports, Version Control System used and Continues Integration Tool used.
+Language: In our Selenium Project we are using Java language. Even though Selenium supports multiple languages, we are using Java language is just because most of the automation developers have knowledge on Selenium with Java.
+Type of Framework: In our project, we are using Data-driven Framework by using Page Object Model design pattern with Page Factory.
+Packages: We have separate packages for Pages and Tests. All the web page related classes come under Pagespackage and all the tests related classes come under Tests package.
+For example, Home Page and Login Page have a separate classes to store element locators. For the login test there would be a separate class which calls the methods from the Home Page class and Login Page class.
+Test Base Class: Test Base class (TestBase.java) deals with all the common functions used by all the pages. This class is responsible for loading the configurations from properties files, Initializing the WebDriver, Implicit Waits, Extent Reports and also to create the object of FileInputStream which is responsible for pointing towards the file from which the data should be read.
+Utility Class (AKA Functions Class): Utility class (TestUtil.java) stores and handles the functions (The code which is repetitive in nature such as waits, actions, capturing screenshots, accessing excels, sending email etc.,) which can be commonly used across the entire framework. The reason behind creating utility class is to achieve reusability. This class extends the TestBase class to inherit the properties of TestBase in TestUtil.
+Properties file: This file (config.properties) stores the information that remains static throughout the framework such as browser specific information, application URL, screenshots path etc.
+All the details which change as per the environment and authorization such as URL, Login Credentials are kept in the config.properties file. Keeping these details in a separate file makes easy to maintain.
+Screenshots:  Screenshots will be captured and stored in a separate folder and also the screenshots of a failed test cases will be added in the extent reports.
+Test Data: All the historical test data will be kept in excel sheet (controller.xlsx). By using ‘controller.xlsx’, we pass test data and handle data driven testing. We use Apache POI to handle excel sheets.
+TestNG: Using TestNG for Assertions, Grouping and Parallel execution.
+Maven: Using Maven for build, execution and dependency purpose. Integrating the TestNG dependency in POM.xml file and running this POM.xml file using Jenkins.
+Version Control Tool: We use Git as a repository to store our test scripts.
+Jenkins: By using Jenkins CI (Continuous Integration) Tool, we execute test cases on daily basis and also for nightly execution based on the schedule. Test Result will be sent to the peers using Jenkins.
+Extent Reports: For the reporting purpose, we are using Extent Reports. It generates beautiful HTML reports. We use the extent reports for maintaining logs and also to include the screenshots of failed test cases in the Extent Report.
+
+
+
+
+
+
+
+
+
+
+

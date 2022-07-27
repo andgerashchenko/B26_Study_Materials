@@ -1,0 +1,35 @@
+NADIR INTERVIEW QUESTIONS DAY 15
+
+1-Let’s start from SDLC. Can you walk me through what does it do and what is that?
+2- I am interested in Requirement gathering can you tell me what is happening in Requirement gathering session
+3-In design part,  there should be someone from testing team. Why? What they decide there what they do.
+4-can you start walk me through from the smallest piece of testing to the higher level of the pyramid?
+5-Can you tell me when testers do the integration testing and when developers do the integration testing?
+6-Did you have any experience during integration not inside same application but working with downstream and upstream applications, if yes what is downstream and what is upstream application?
+7- Can you walk me through you project and team structure?
+8-How many team under your project?
+9-What is the name of the project
+10-Can you walk me through your scrum meetings?
+11-in sprint planning meeting you probably going over your team velocity and team capacity so do you remember how many points have you completed in your last sprint as a team?
+12-so you guys are doing in sprint automation?
+13-can you tell me little bit more about sprint automation, How you decide when you decide which one needs to be automated,  how you guys do it?
+14-When you have a user story. Lets say you have a user story with 3 acceptance criteria, how would you approach testing this user story, forgot about automation like manually you need to test the user story with 3 acceptance criteria what is going to be your approach?
+15-What do you mean by ready to develop? How you measured that it is ready to develop?
+16-Let’s say that it passes DOR(Definition of ready). You have user story with 3 accepting criteria now you need to test. What you going to do?
+
+17-What you going to aim when you write the test scenario even before create the test case?
+18-is it possible that you have one scenario that covers 3 acceptance criteria in once? Or would you like to go 1 scenario for each acceptance criteria?
+19-Do you think that you will need more than 3 test scenarios?
+20-Why you don’t create test case right away, why you need to create scenarios first
+21-Do you review your test scenarios with someone else?
+
+JAVA -> 1- Can you create a method which reverse string?
+2-How would you test this method?
+3-Tell me the expected results
+4-What we call this type of testing (White box/unite testing
+5-What condition should be met in order to say that, that method is overridden method
+6-let’s say in parent class your access modifier is default and in child class when you override that method what can be the access modifier?
+7-let’s say that in parent class your access modifier is protected in child class when you override what could be the access modifier?
+8-let’s say that your method is static in parent class. In child class we like to override that method. What would be access modifier, return type, name and parameters
+
+JAVA -> 2- I want you to write a method which accept string list and return it as a string

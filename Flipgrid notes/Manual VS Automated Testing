@@ -1,0 +1,32 @@
+Manual VS Automated Testing
+
+Manual:
+	Cons
+	- Human errors
+	- Time consuming
+	- Limitations(load, performance testing)
+	Pros
+	- Live testing
+	- UI & UX issues
+	- Less investment(tolls, skills)
+	- Flexible 
+	Usage:
+	- Usability testing
+	- Ad-hoc testing
+	- Non-repetitive tests
+
+
+Automated:
+	Cons:
+	- High cost
+	- Can't detect UI & UX issues
+	- Tools limitation
+	Pros:
+	- Quik result
+	- Reusability
+	- Less errors
+	- Collaboration
+	Usage:
+	- Regression Testing
+	- Load Testing
+	- Performance testing
