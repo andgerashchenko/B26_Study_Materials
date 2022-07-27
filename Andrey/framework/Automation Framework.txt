@@ -1,0 +1,85 @@
+Automation Framework
+
+1. Wrapper on Webdriver to manage element interactions
+2. Test Data management: Ability to retrieve test data (from xml, excel, json, text files)
+3. Utilities (File readers, Database, webservice clients, Date...)
+4. Traceability: tagging
+5. Reporting capability: screen shots, test recording video capability 
+6. Browser management
+
+Development Principles
+
+* Object Oriented Programming (OOPs)
+// code reuse, flexible code-easy for enhancements , low maintenance 
+- Abstraction
+- Encapsulation
+- Inheritance
+- Polymorphism
+* DRY
+
+// Selenium
+First building block of my automation framework is always Seleniun. It's great tool, but it doesn't completely give me access to the complete testing framework that I might need. I might be doing backend testing, API testing. There's a lot more involved in the framework.
+
+// Wrapper on Webdriver to manage element interactions
+Most of the time rather that using Selenium directly out of the box, most of the teams I worked with use a wrap around. It makes it easier for us to combine three lines of Selenium into one line. That's how we use the wrappers.
+
+If I want to use Selenium out of the box, it's a proof of concept. Does this application I will write a few lines of Selenium to show my managers that this is how we can use this particular tool.
+
+// Test Data management
+One and the most important one is our test data. All of the required test data. All of out test requires data but it comes in different formats. I can get it from XML, XL, JSON, CSV properties. So getting test data, retrieving it from the test files and using them (the data) in my scenarios (the test cases) needs to be part of my automation framework.
+
+// Utilities
+Than comes utilities, these are what I call my helpers
+I always need to have tons of these helps to get my automation framework up and running.
+* File readers, not just the data file readers. But if your application is uploading, downloading PDF files - I need a way to read the files. 
+* Databases, if the way the application is supposed to be tested is: "check something on the UI and make sure that's the same data that is stored in the database". In that case, I'll need some database utilities to make those connections, data pulling also to run those queries (validation queries).
+* APIs - I can have my own API test turners or I could use those APIs and webservices as part of my data setap. I'll need some sort of client for that. 
+* Data methods - (date format, String comparisons - lots of things that we do us a part of our automation testing - those can also become part of these utilities. 
+
+// Traceability - this is the important thing. When we write test cases, it's not just about writing a test case and being done. You have to map it to a particular story of feature in your code. When you are coming off of those requirements and testing things. So tagging is important part of that. You can use tagging to be sort of like a live documentation. It can say, oh, this particular one is related to the Jira ticket is related so and so (this is one way). Or this particular scenario is related to this module or this scenario is a positive test versus a negative test. Or a smoke test versus a sanity test. You can add any number of tags to your test cases. That, again, become my documentation. This feature is provided by Cucumber also (if I'm using that). If I'm not using that, I can build my own tagging framework. Other importance of tagging is execution. I can use this as a subset of test that I want to run. I might have a hundred tests our there. But I need to run only 20 for my sanity check - so I can tag those tests as sanity and just run those tests. 
+
+// Reporting
+Once Im ready with the execution part - comes the reporting. We get screenshots from a lot of tools out there. THere's JUnit, a number of other tools, Cucumber which provides it's own reports. Sometimes you need more that what those reports are providing. In my case, we wanted the capability to do the video recoding of every test run. So, I have small video files generated at the end of my tests. This is helpful when I have a hundred tests out there and I don't have time to baby sit each and every of them to look how they are running on a regular basis. So in those cases when there are failure I can go back to view the videos and figure out where exactly in the test case or on the UI the test failed. That's a cool capability to have as a part of my automation framework. 
+
+// Browser management
+Selenium, Selenium Grid provides us this facility already, but you need to make sure your automation framework is configured to use that capability out there. 
+
+
+Summary 
+If you look at all that, you can see that's a lot of coding that we have to do. And that is not something that we can do on day one, okay, I'm done, the automation framework is ready and I can start writing tests for that. This requires design review, design architecture and lots of coding. The coding is almost comparable to the one that a software developer does for application code. And they use development principles. So why can't we use the same thing on our automation frameworks when we are designing them? Here's a look at the object oriented principles that most of the developers are using. They are using this for languages like Java, C#. And even though I'm talking about these OOPS in terms of Java, that's where I've worked mostly, you can take some of the examples and bring them back to your scripting tools like Python or Ruby. Even though they are not OOP, you can use them in your framework. You can still leverage the same example in your scripting frameworks. 
+
+
+// Object Oriented Programming (OOP)
+4 main pillars:
+
+// Abstraction -> Process of hiding all but the relevant data about an object in order to reduce complexity and increase deficiency. 
+In Layman's terms: Start simple and provide space later on to add complexities. We are trying to put many details into our design. Too many details are going into the requirements and so on. And that causes a lot of problems. Because then we sometimes lose site of the goals that we want to achieve. That's where abstraction comes in.
+An example of abstraction is Selenium WebDriver.
+Interfaces in WebDriver use abstraction concept.
+Selenium WebDriver Interface:
+- WebDriver defined as an interface - methods declared but no implementation.
+- RemoteDriver implements WebDriver.
+- The methods are implemented by RemoteDriver
+- The FirefoxDriver and ChromeDriver classes extend RemoteDriver.
+An example of abstraction in Automation:
+In Report class -> generateReport(method) -> convertToFormat(logical method) -> override convertToFormat(String formatType) -> case "html"/"excel"/"pdf" break; 
+
+// Encapsulation
+Refers to the bundling of data(variables) along with the methods that operate on that data together.
+- enclosing programming elements inside larger, more abstract entities.
+- reveal as little as possible about how something works 
+- enforce correct usage 
+Example of encapsulation: 
+Page Object Model, also known as POM, is a design pattern in Selenium that creates an object repository for storing all web elements. It is useful in reducing code duplication and improves test case maintenance. In Page Object Model, consider each web page of an application as a class file.
+
+private username
+private password
+private loginbtn
+public void login(String username, String password)
+
+// Inheritance is a mechanism in which one class acquires the property of another class. With inheritance we can reuse the fields and methods of the parent class. 
+
+// Polymorphism
+Example: overloading or navigateToPage via SubPage (I create 2 same methods by changing signature)
+
+//DRY don't repeat yourself (loggin in/out, checking if page is loaded, navigating to a particular page, data retrieval, validating file contents)

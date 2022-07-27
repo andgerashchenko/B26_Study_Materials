@@ -1,0 +1,22 @@
+tell me about yourself 
+===========================
+
+=> introduction 
+=> industry - crm, logistics, health, insurance 
+=> application - web applications, data base (jdbc), client server application (rest api)
+=> operating system - windows, mac, linux 
+=> language  - java, javascript
+=> build - maven, (gradle, ant)
+=> IDEs - Intellij, Eclipse, (Netbeans, VScode)
+=> testing framework lib/tools - testNG, junit, selenium, cucumber
+=> framework design - page object model / BDD cucumber framework 
+=> version  - git gitlab/bitbucket/github (svn)
+=> continuous integration / continuous deployment (ci/cd) - Jenkins
+=> project  management tool - Jira (Rally, ALM) 
+=> test management tool - Xray (Zephyr) 
+=> methodologies - Scrum, Kanban, Scrumbun 
+=> testing types - smoke, regression, end to end, back end, API 
+=> personality - detailed orientated, team player 
+
+As you already know my name is ------. I have been in IT industry more than 6 years already. During these years I have worked in health and finance industry. Right now I am working in an ---- project. Through out my experience I have been successfully tested web based application, client server applications and data base as well both in windows and IOS. My main language is Java. I am also good at SQL as I tested data base applications as well. I am exposed to some JavaScript also. I mainly build projects in Maven, also have some experience with Ant. So far worked with different IDEs as Eclipse, Intellj and Netbeans. I have an experience of building automation framework from scratch, using selenium, junit, testng and cucumber. My framework is Page Object Model Cucumber Framework. For repository I am using GitHub, I also have some experience with SVN. For continuous integration I work with Jenkins. In my current project we are using Jira for project management and I am using jira xray add on for test management, which is actually really cool, integrates with my testing framework. I also have experience with ALM, who does not right (here you laugh). I started in a waterfall however last 5 years I an agile team. I am very well exposed all scrum ceremonies. Actually I am a certified scrum master as well. I am performing smoke test and functional testing also regression in a regular bases. If you ask my coworkers, they would probably describe me as a detail oriented person, who sticks to deadlines. Personally, I really like to learn new things and share my knowledge with other. So this is all about me
+=========================    

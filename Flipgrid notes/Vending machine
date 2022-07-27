@@ -1,0 +1,68 @@
+Test a Vending machine?
+Vending machine is an automated machine which is intended to sell diverse range of products: snacks, beverages, candies etc. It has inbuilt service programm, which can be tested in different ways
+For example Front end testing or form User perspective. Here we can make such test:
+
+1. User can Select product on keypad: expected result is: - the keyboad is working
+														  - selection displayed on the screen
+														  - system ask user to make payment
+2. User inserted cash: - System displayed entered amount
+
+3. User inserted correct amount of money: - system displayed that entered amount is enough for purchse chosen item
+
+4. User inserted Not enough money: - inserted amount displayed
+								   - when user select product, system displayed 'Not enough funds'	
+								   - system will NOT dispence the item
+
+5. Change returned if User inserted more cash that product price: - inserted amount displayed
+																  - product dispensed
+																  - change dispensed
+
+6. Verify correct product is dispensed when selected: 
+
+7. Selected product out of stock: - system displayed that product is out of stock and suggest to chose another one
+
+8. Not enough change available if more than item price money inserted: - 
+
+
+Back end testing:
+-Service mode 
+-Operational mode
+
+Stress test:
+- no product dispenced if the machine shaked
+- no money returned if machine shaked
+
+Payment types accepted:
+- cash
+- card
+- contactless
+- ApplePay
+- crypto curency
+
+Security check:
+- enter ineligible coin
+- enter ineligible bill
+
+
+Maintanance functionality testing:
+- Restocking functions
+- Price setup
+- Temperature setup
+- Verify seles log is correct
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 

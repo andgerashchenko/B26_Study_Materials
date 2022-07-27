@@ -1,0 +1,8 @@
+Tell me about your daily activities
+
+My daily activities at work, I go to work early in the morning and check result report of Smoke Test to make sure that environment is up and running and the application is stable or not for the day. In case I run regression overnight I also check the reports if there is any bugs or so. If there are problems I note them to get in touch with the related developer during the day.  
+• If something goes wrong, I will send out an email to my team and discuss it in person on daily standup.
+• And then I check my email if there are any important tasks or notices, also check my schedule if there are any meetings for the day and also check Jira to review what needs to be done that day in which priority.
+• Then I go to attend daily standup meeting at 10:00 am. with my scrum team to talk about what we did yesterday, what we will do today and are there any impediments in my way. This meeting is simply to synchronize our team and it takes about 15 minutes.
+• After that, I go back to my desk and start automating test cases from regression suits. And also, I automate test cases from sprint backlog after doing manually if it is passed. When the certain part of work is done I update my repository branch with current updates and make corresponding changes in Jira. One of my responsibilities is to accept pull requests in GitHub. Also in our team sometimes we review each others code to reveal weaknesses or to learn something new. Once a week I have brown bag meeting, where during lunch time people discuss different topics, not always related to work. 
+

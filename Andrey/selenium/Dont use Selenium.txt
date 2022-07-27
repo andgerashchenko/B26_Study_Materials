@@ -1,0 +1,40 @@
+Worst Practices for Automation Testing with Selenium
+In the section above, I listed down the most essential Selenium best practices to assist you in automation testing with Selenium. Now, I present some of the Selenium practices that you should avoid at any cost:
+
+1. File Downloads
+Downloading a file on any web platform is initiated by clicking on a link (or a button) that prompts users to download the file. The same operation can be automated using Selenium, but the downside is that API does not show any progress regarding the file download. Hence, you would not be aware of whether the download functionality is being tested or not.
+
+Do you know how to upload and download a file in Selenium? Watch this video to learn how to upload and download files in Selenium WebDriver using different techniques.
+
+
+Moreover, downloading files is not an essential aspect of testing user interaction with the web platform. Instead, the download link located using Selenium (and any required cookies) should be passed to an HTTP request library like libcurl.
+
+2. CAPTCHAS
+CAPTCHA or ‘Completely Automated Public Turing test to tell Computers and Humans Apart’ is specifically designed to check whether a human is performing the necessary operation. In short, it is designed to prevent automation.
+
+Disabling CAPTCHAS in the test environment and adding a hook for bypassing the CAPTCHA are the two strategies that can be used for getting around CAPTCHA checks in the test environment.
+
+3. Two-Factor Authentication (2FA)
+Two-factor authentication (2FA) is a security mechanism where an OTP (One-Time Password) is generated using Authenticator mobile apps. Gmail has an authenticator app that will make random codes to authenticate whether the actual account holder is trying to login to a new system (or app).
+
+Automating 2FA in Selenium can be a considerable challenge, and it might not guarantee performance. It is better to avoid automating 2FA in test environments. You also have the option of disabling 2FA for a specific set of users to use their credentials (on any test system). Alternatively, you can also configure test machines so that 2FA is disabled for a certain family of IP addresses (or selected IP addresses).
+
+4. Link Spidering (or Crawling)
+Web crawling (or spidering) is performed using a web crawler, which is an automated script for browsing the Internet in a systematic and automated manner. Selenium is not designed to spider links, as it requires time to startup, and traversal through the DOM might take a few seconds (or even minutes).
+
+As the time taken is variable, Selenium should never be used for spidering. Instead, use curl commands or libraries such as BeautifulSoup for crawling the web.
+
+5. Automation of Logins on Gmail, Facebook, & other Related Platforms
+Using automation (with Selenium or other test frameworks) for logging in to Gmail, Facebook, or any such websites is against their policies. Secondly, the testing can be highly unreliable.
+
+Instead, the developer can use the third-party APIs provided by the corresponding website as it is more reliable, less subject to change, and more secure to use. Using Selenium automation for login purposes (on these websites) should be avoided at any cost.
+
+6. Avoid Test Dependency
+Parallelism is an integral part of cross browser testing (and Selenium automation testing) as it aids in expediting the test execution. However, the execution sequence is not guaranteed.
+
+The development of inter-dependent tests should be completely avoided as it is a bad practice and does not guarantee reliability. The test suite might pass in one test execution, whereas the same test suite can fail in the next cycle. The practice of autonomous test case design should be followed when coming up with Selenium automation test cases (or test suites).
+
+7. Performance Testing
+Selenium framework is designed for automation testing. Performance testing using Selenium and WebDriver is not recommended, as it is not optimized for doing that task and you might not get the expected results.
+
+On a website (or a web platform), there are many external factors such as browser startup speed, the speed at which HTTP server response is received, etc. that are beyond the tester’s control. Rather than choosing Selenium WebDriver for performance testing, you should select ready-made tools that are specifically designed for performance testing.
